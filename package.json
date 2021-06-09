@@ -1,0 +1,19 @@
+{
+  "name": "@rhymo/core",
+  "version": "0.0.0",
+  "description": "Avoid writing repetitive React code.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeptao/rhymojs.git"
+  },
+  "keywords": [
+    "rhymojs"
+  ],
+  "author": "Xeptao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xeptao/rhymojs/issues"
+  },
+  "homepage": "https://github.com/xeptao/rhymojs"
+}
