@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "Avoid writing repetitive React code.",
   "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xeptao/rhymojs.git"
@@ -15,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/xeptao/rhymojs/issues"
   },
-  "homepage": "https://github.com/xeptao/rhymojs"
+  "homepage": "https://github.com/xeptao/rhymojs",
+  "peerDependencies": {
+    "react": ">=16.0.0"
+  }
 }
