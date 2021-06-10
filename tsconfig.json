@@ -22,5 +22,8 @@
     "lib",
     "node_modules",
     "assets"
-  ]
+  ],
+  "typeAcquisition": {
+    "enable": true
+  }
 }
