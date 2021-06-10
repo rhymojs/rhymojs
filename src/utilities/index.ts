@@ -1,1 +1,1 @@
-export { default as toTitleCase } from "./toTitleCase";
+export { default as toCapitalizeCase } from "./toCapitalizeCase";

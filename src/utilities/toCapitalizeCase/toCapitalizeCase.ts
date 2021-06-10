@@ -1,4 +1,4 @@
-const toTitleCase = (str: string): string =>
+const toCapitalizeCase = (str: string): string =>
   str
     .split(" ")
     .map(word => {
@@ -10,4 +10,4 @@ const toTitleCase = (str: string): string =>
     })
     .join(" ");
 
-export default toTitleCase;
+export default toCapitalizeCase;

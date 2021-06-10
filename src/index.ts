@@ -1,1 +1,1 @@
-export { toTitleCase } from "./utilities";
+export { toCapitalizeCase } from "./utilities";
