@@ -4,7 +4,7 @@ describe("useGeolocation", () => {
   it("returns an ip", async () => {
     const geolocation = await useGeolocation();
 
-    expect(geolocation.length).toEqual(14);
+    expect(geolocation.length).toEqual(15);
   });
 
   it("returns data", async () => {
