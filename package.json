@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "watch": "tsc -w",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -24,10 +25,12 @@
     "react": ">=16.0.0"
   },
   "devDependencies": {
+    "@testing-library/react": "^11.2.7",
     "@typescript-eslint/eslint-plugin": "^4.26.1",
     "@typescript-eslint/parser": "^4.26.1",
     "eslint": "^7.28.0",
-    "eslint-plugin-react": "^7.24.0"
+    "eslint-plugin-react": "^7.24.0",
+    "jest": "^27.0.4"
   },
   "dependencies": {
     "eslint-config-prettier": "^8.3.0",
