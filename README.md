@@ -14,4 +14,14 @@
   </i>
 </p>
 
+<p align="center">
+  <a href="www.rhymojs.com">
+    <b>www.rhymojs.com</b>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/xeptao/rhymojs/blob/dev/CONTRIBUTING.md"><b>Contribution Guidelines</b></a> · <a href="https://github.com/xeptao/rhymojs/issues/new"><b>Report a bug</b></a> · <a href="https://rhymojs.com/docs/"><b>Documentation</b></a>
+</p>
+
 ---
