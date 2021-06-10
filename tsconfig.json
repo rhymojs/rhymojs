@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "jsx": "react",
+    "declaration": true,
+    "outDir": "lib",
+    "rootDir": "./src/",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "alwaysStrict": true,
+    "baseUrl": "./src/",
+    "paths": {
+      "@components/*": [
+        "components/*"
+      ],
+      "@utilities/*": [
+        "utilities/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "lib",
+    "node_modules",
+    "assets"
+  ]
+}
