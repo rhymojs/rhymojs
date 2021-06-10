@@ -1,1 +1,2 @@
-export { toCapitalizeCase } from "./utilities";
+export * from "./utilities";
+export * from "./hooks";
