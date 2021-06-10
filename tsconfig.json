@@ -11,18 +11,6 @@
     "strictNullChecks": true,
     "strictFunctionTypes": true,
     "alwaysStrict": true,
-    "baseUrl": "./src/",
-    "paths": {
-      "@components/*": [
-        "components/*"
-      ],
-      "@utilities/*": [
-        "utilities/*"
-      ],
-      "@hooks/*": [
-        "hooks/*"
-      ],
-    },
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
