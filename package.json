@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "tsc -w",
     "build": "tsc",
-    "test": "jest --watch"
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
