@@ -22,6 +22,8 @@
     "lib",
     "node_modules",
     "assets",
+    "**/*.test.ts",
+    "**/*.test.tsx"
   ],
   "typeAcquisition": {
     "enable": true
