@@ -21,7 +21,9 @@
   "exclude": [
     "lib",
     "node_modules",
-    "assets"
+    "assets",
+    "**/*.test.ts",
+    "**/*.test.tsx"
   ],
   "typeAcquisition": {
     "enable": true
