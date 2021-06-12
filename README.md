@@ -40,7 +40,7 @@
 **There is several ways to install/try Rhymo:**
 
 - Install the NPM [package](https://www.npmjs.com/package/@rhymo/core).
-- Try it with the playground on our [website](https://rhymojs.com).
+- Try it with the playground on our [website](https://rhymojs.com/playground/).
 - Use the [CDN](https://unpkg.com/@rhymo/core@latest/index.js) to add Rhymo to your project in seconds.
 
 ## Documentation
