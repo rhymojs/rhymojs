@@ -13,7 +13,11 @@
     "alwaysStrict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "ESNext",
+      "DOM"
+    ]
   },
   "include": [
     "src"
