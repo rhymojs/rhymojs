@@ -1,4 +1,4 @@
-import toCapitalizeCase from "./toCapitalizeCase";
+import toCapitalizeCase from "../toCapitalizeCase";
 
 describe("toTitleCase", () => {
   it("works properly", () => {

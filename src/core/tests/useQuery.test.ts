@@ -1,4 +1,4 @@
-import useQuery from "./useQuery";
+import useQuery from "../useQuery";
 
 describe("useQuery", () => {
   it("returns truthy value", async () => {

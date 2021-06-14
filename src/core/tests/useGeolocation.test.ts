@@ -1,4 +1,4 @@
-import useGeolocation from "./useGeolocation";
+import useGeolocation from "../useGeolocation";
 
 describe("useGeolocation", () => {
   it("returns an ip", async () => {
