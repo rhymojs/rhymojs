@@ -6,8 +6,8 @@
   "scripts": {
     "watch": "tsc -w",
     "build": "tsc",
-    "test": "jest --config ./.jestrc.json",
-    "test:watch": "jest --watchAll --config ./.jestrc.json",
+    "test": "jest --verbose",
+    "test:watch": "jest --verbose",
     "lint": "yarn eslint --ext ts --ext tsx",
     "lint:fix": "yarn eslint --fix --ext ts --ext tsx",
     "prettify": "prettier --write src/**/**/*.ts src/**/**/*.tsx"
