@@ -52,7 +52,8 @@
     "src/**/**/*.{ts, tsx}": [
       "yarn lint:fix",
       "yarn prettify",
-      "yarn test"
+      "yarn test",
+      "git add . -A"
     ]
   }
 }
