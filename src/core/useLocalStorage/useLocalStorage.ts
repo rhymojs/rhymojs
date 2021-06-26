@@ -6,6 +6,11 @@ type LocalStorageItem = [
   () => void // clearValue
 ];
 
+/**
+ * Sets a localStorage item with a stateful value.
+ * @version v0.1.2
+ * @see https://rhymojs.com/docs/useLocalStorage/
+ */
 const useLocalStorage = (name: string): LocalStorageItem => {
   const [value, setValue] = useState("");
 

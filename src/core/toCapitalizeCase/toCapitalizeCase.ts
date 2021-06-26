@@ -1,3 +1,8 @@
+/**
+ * Converts strings to capitalize case.
+ * @version v0.1.2
+ * @see https://rhymojs.com/docs/toCapitalizeCase/
+ */
 const toCapitalizeCase = (str: string): string =>
   str
     .split(" ")

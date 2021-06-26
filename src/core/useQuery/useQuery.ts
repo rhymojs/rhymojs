@@ -2,6 +2,11 @@
 
 import axios from "axios";
 
+/**
+ * Sends a request to a provided URL.
+ * @version v0.1.2
+ * @see https://rhymojs.com/docs/useQuery/
+ */
 async function useQuery<ReturnValue = unknown>(
   url: string
 ): Promise<ReturnValue> {
