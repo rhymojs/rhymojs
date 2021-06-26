@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/xeptao/rhymojs",
   "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "@testing-library/react": "^11.2.7",
     "@types/jest": "^26.0.23",
     "@types/react": "^17.0.11",
@@ -31,7 +33,9 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
+    "husky": "^6.0.0",
     "jest": "^27.0.4",
+    "lint-staged": "^11.0.0",
     "prettier": "^2.3.1",
     "ts-jest": "^27.0.3"
   },
