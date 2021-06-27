@@ -92,6 +92,6 @@ Get updates on Rhymo's development and chat with the project maintainers and com
 
 ## License
 
-Rhino maintains its code by attribution under the terms of the [MIT License](http://opensource.org/licenses/mit-license).
+Rhymo maintains its code by attribution under the terms of the [MIT License](http://opensource.org/licenses/mit-license).
 
 See the [LICENSE](https://github.com/xeptao/rhymojs/blob/dev/LICENSE) file for more details.
