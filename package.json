@@ -1,8 +1,9 @@
 {
-  "name": "rhymo",
-  "version": "0.0.0",
+  "name": "@rhymo/core",
+  "version": "0.1.2",
   "description": "Avoid writing repetitive React code.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "watch": "tsc -w",
     "build": "tsc",

@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "target": "ES2021",
+    "module": "ESNext",
     "jsx": "react",
     "declaration": true,
     "outDir": "lib",
-    "rootDir": "./src/",
+    "rootDir": "./src",
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -14,21 +14,9 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": [
-      "ESNext",
-      "DOM"
-    ]
+    "lib": ["ESNext", "DOM"]
   },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "lib",
-    "node_modules",
-    "assets",
-    "**/*.test.ts",
-    "**/*.test.tsx"
-  ],
+  "include": ["src"],
   "typeAcquisition": {
     "enable": true
   }
