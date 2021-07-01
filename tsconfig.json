@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES2021",
-    "module": "ESNext",
+    "target": "es6",
+    "module": "commonjs",
     "jsx": "react",
     "declaration": true,
     "outDir": "lib",
