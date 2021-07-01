@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export interface ScrollPosition {
+interface ScrollPosition {
   y: number;
   x: number;
 }
