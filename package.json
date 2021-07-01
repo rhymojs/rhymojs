@@ -11,7 +11,11 @@
     "test:watch": "jest --verbose",
     "lint": "yarn eslint --ext ts --ext tsx",
     "lint:fix": "yarn eslint --fix --ext ts --ext tsx",
-    "prettify": "prettier --write src/**/**/*.ts src/**/**/*.tsx"
+    "prettify": "prettier --write src/**/**/*.ts src/**/**/*.tsx",
+    "release": "standard-version",
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch"
   },
   "repository": {
     "type": "git",
