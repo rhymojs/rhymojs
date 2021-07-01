@@ -11,7 +11,11 @@
     "test:watch": "jest --verbose",
     "lint": "yarn eslint --ext ts --ext tsx",
     "lint:fix": "yarn eslint --fix --ext ts --ext tsx",
-    "prettify": "prettier --write src/**/**/*.ts src/**/**/*.tsx"
+    "prettify": "prettier --write src/**/**/*.ts src/**/**/*.tsx",
+    "release": "standard-version",
+    "release:major": "standard-version --release-as major && yarn build && npm publish",
+    "release:minor": "standard-version --release-as minor && yarn build && npm publish",
+    "release:patch": "standard-version --release-as patch && yarn build && npm publish"
   },
   "repository": {
     "type": "git",
@@ -42,6 +46,7 @@
     "jest": "^27.0.4",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.1",
+    "standard-version": "^9.3.0",
     "ts-jest": "^27.0.3"
   },
   "dependencies": {
