@@ -5,3 +5,4 @@ export { default as useQuery } from "./useQuery";
 export { default as useWindowSize } from "./useWindowSize";
 export { default as useLocalStorage } from "./useLocalStorage";
 export { default as useClipboard } from "./useClipboard";
+export { default as useScrollPosition } from "./useScrollPosition";
