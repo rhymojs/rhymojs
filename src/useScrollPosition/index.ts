@@ -1,1 +1,1 @@
-export { default as useScrollPosition } from "./useScrollPosition";
+export { default } from "./useScrollPosition";
