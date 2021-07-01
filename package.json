@@ -13,9 +13,9 @@
     "lint:fix": "yarn eslint --fix --ext ts --ext tsx",
     "prettify": "prettier --write src/**/**/*.ts src/**/**/*.tsx",
     "release": "standard-version",
-    "release:major": "standard-version --release-as major",
-    "release:minor": "standard-version --release-as minor",
-    "release:patch": "standard-version --release-as patch"
+    "release:major": "standard-version --release-as major && yarn build && npm publish",
+    "release:minor": "standard-version --release-as minor && yarn build && npm publish",
+    "release:patch": "standard-version --release-as patch && yarn build && npm publish"
   },
   "repository": {
     "type": "git",
