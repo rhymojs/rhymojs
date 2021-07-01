@@ -20,10 +20,10 @@ jobs:
           registry-url: https://registry.npmjs.org
 
       - name: Install Dependencies
-        run: yarn
+        run: npm install
 
       - name: Build Library
-        run: yarn build
+        run: npm run build
 
       - name: Publish Package
         run: npm publish --access public
