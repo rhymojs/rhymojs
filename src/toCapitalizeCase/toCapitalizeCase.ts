@@ -1,6 +1,6 @@
 /**
  * Converts strings to capitalize case.
- * @version v0.1.2
+ * @version v1.0.0
  * @see https://rhymojs.com/docs/toCapitalizeCase/
  */
 const toCapitalizeCase = (str: string): string =>

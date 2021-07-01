@@ -1,6 +1,6 @@
 {
   "name": "@rhymo/core",
-  "version": "0.1.2",
+  "version": "1.1.0",
   "description": "Avoid writing repetitive React code.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
