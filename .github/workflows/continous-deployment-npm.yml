@@ -1,4 +1,4 @@
-name: Continous Deployment - NPM
+name: "🚀 release"
 
 on:
   push:
@@ -6,26 +6,26 @@ on:
       - master
 
 jobs:
-  publish:
-    name: Publish Package
+  release:
+    name: 🚀 release
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: 📚 checkout
         uses: actions/checkout@v2.1.1
 
-      - name: Setup Node
-        uses: actions/setup-node@v1.4.2
+      - name: 🟢 node
+        uses: actions/setup-node@v2.2.0
         with:
-          node-version: 15.14.0
+          node-version: 12
           registry-url: https://registry.npmjs.org
 
-      - name: Install Dependencies
+      - name: 📁 dependencies
         run: npm install
 
-      - name: Build Library
+      - name: 💻 build
         run: npm run build
 
-      - name: Publish Package
+      - name: 🚀 publish
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
