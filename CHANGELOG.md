@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/rhymojs/rhymojs/compare/v1.1.0...v1.2.0) (2021-07-01)
+
+
+### Features
+
+* add cd action ([ceaaea1](https://github.com/rhymojs/rhymojs/commits/ceaaea1e332141fbf199356917a42b0ab1f305ba))
+* auto changelog ([#16](https://github.com/xeptao/rhymojs/issues/16)) ([c0d81f1](https://github.com/rhymojs/rhymojs/commits/c0d81f15403703f1d818c2db7b3f6df36a61c630))
+* continous deployment ([#19](https://github.com/xeptao/rhymojs/issues/19)) ([f6d94b2](https://github.com/rhymojs/rhymojs/commits/f6d94b29b7ad75c58469d2c7eab153cacd8e105d))
+
+
+### Bug Fixes
+
+* change cd to use npm ([#20](https://github.com/xeptao/rhymojs/issues/20)) ([9f9dc09](https://github.com/rhymojs/rhymojs/commits/9f9dc09033311d6d07a032d2b48abd4fd57f124d))
+* checkout command ([#10](https://github.com/xeptao/rhymojs/issues/10)) ([e232aab](https://github.com/rhymojs/rhymojs/commits/e232aab6f1248fc6b2150931ce25fb9cfc8eec50))
+* fix cd action ([c3761d8](https://github.com/rhymojs/rhymojs/commits/c3761d83a0a828d14a9f972b336395028763c108))
+* try to fix action ([3ac2cd6](https://github.com/rhymojs/rhymojs/commits/3ac2cd614e01ee1e16365e434320b742b3859656))
+* use npm in actions ([66108f9](https://github.com/rhymojs/rhymojs/commits/66108f930cb38937685b437e4a004b371c7aee5f))
+* versionrc url ([36b0c9f](https://github.com/rhymojs/rhymojs/commits/36b0c9f992a501007ac3dfc2ebebfb954e8a5384))
+
 ## [1.1.0](https://github.com/mokkapps/changelog-generator-demo/compare/v0.1.1...v1.1.0) (2021-07-01)
 
 
