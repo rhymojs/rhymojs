@@ -1,0 +1,36 @@
+name: lint & test ✨🧪
+
+on:
+  push:
+    branches:
+      - master
+  pull:
+    branches:
+      - master
+
+jobs:
+  lint:
+    name: lint ✨
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📚 checkout
+        uses: actions/checkout@v2.1.1
+
+      - name: 📁 dependencies
+        run: npm install
+
+      - name: lint ✨
+        run: npm run lint
+
+  test:
+    name: test 🧪
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📚 checkout
+        uses: actions/checkout@v2.1.1
+
+      - name: 📁 dependencies
+        run: npm install
+
+      - name: test 🧪
+        run: npm run test
