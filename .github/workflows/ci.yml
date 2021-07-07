@@ -1,4 +1,4 @@
-name: lint & test ✨🧪
+name: CI
 
 on:
   push:
