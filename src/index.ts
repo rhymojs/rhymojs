@@ -7,3 +7,4 @@ export { default as useLocalStorage } from "./useLocalStorage";
 export { default as useClipboard } from "./useClipboard";
 export { default as useScrollPosition } from "./useScrollPosition";
 export { default as makeRandomString } from "./makeRandomString";
+export { default as useLockScroll } from "./useLockScroll";
