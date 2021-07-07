@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xeptao/rhymojs.git"
+    "url": "git+https://github.com/rhymojs/rhymojs.git"
   },
   "keywords": [
     "rhymojs"
@@ -28,9 +28,9 @@
   "author": "Xeptao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xeptao/rhymojs/issues"
+    "url": "https://github.com/rhymojs/rhymojs/issues"
   },
-  "homepage": "https://github.com/xeptao/rhymojs",
+  "homepage": "https://github.com/rhymojs/rhymojs",
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
