@@ -18,3 +18,4 @@ yarn.lock
 src/
 .storybook
 CODE_OF_CONDUCT.md
+babel.config.js
