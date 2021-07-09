@@ -17,6 +17,7 @@
     "lib": ["ESNext", "DOM"]
   },
   "include": ["src"],
+  "exclude": ["*.story.ts", "*.story.tsx"],
   "typeAcquisition": {
     "enable": true
   }
