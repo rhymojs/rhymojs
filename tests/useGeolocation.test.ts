@@ -10,6 +10,6 @@ describe("getGeolocation", () => {
   it("returns an ip", async () => {
     const geolocation = await getGeolocation();
 
-    expect(geolocation.length).toBeGreaterThanOrEqual(14);
+    expect(geolocation.length).toBeGreaterThanOrEqual(13);
   });
 });
