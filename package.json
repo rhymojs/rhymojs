@@ -16,7 +16,9 @@
     "release": "standard-version",
     "release:major": "standard-version --release-as major && yarn build && npm publish",
     "release:minor": "standard-version --release-as minor && yarn build && npm publish",
-    "release:patch": "standard-version --release-as patch && yarn build && npm publish"
+    "release:patch": "standard-version --release-as patch && yarn build && npm publish",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -32,13 +34,19 @@
   },
   "homepage": "https://github.com/rhymojs/rhymojs",
   "devDependencies": {
+    "@babel/core": "^7.14.6",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
+    "@storybook/addon-actions": "^6.3.4",
+    "@storybook/addon-essentials": "^6.3.4",
+    "@storybook/addon-links": "^6.3.4",
+    "@storybook/react": "^6.3.4",
     "@testing-library/react": "^11.2.7",
     "@types/jest": "^26.0.23",
     "@types/react": "^17.0.11",
     "@typescript-eslint/eslint-plugin": "^4.26.1",
     "@typescript-eslint/parser": "^4.26.1",
+    "babel-loader": "^8.2.2",
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
