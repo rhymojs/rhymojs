@@ -11,7 +11,7 @@
     "test:watch": "yarn test --watch",
     "lint": "yarn eslint --ext .ts,.tsx src/",
     "lint:fix": "yarn lint --fix",
-    "prettify": "prettier --write src/**/**/*.ts src/**/**/*.tsx",
+    "prettify": "prettier --write {src,tests}/**/**/*.ts {src,tests}/**/**/*.tsx",
     "prepare": "husky install",
     "release": "standard-version",
     "release:major": "standard-version --release-as major && yarn build && npm publish",
