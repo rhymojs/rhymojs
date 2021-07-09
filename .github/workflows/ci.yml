@@ -32,5 +32,8 @@ jobs:
       - name: 📁 dependencies
         run: npm install
 
+      - name: 💻 build
+        run: npm run build
+
       - name: test 🧪
         run: npm run test
