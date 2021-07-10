@@ -10,7 +10,7 @@ assets/
 .prettierrc
 CHANGELOG.md
 CONTRIBUTING.md
-jest.config.js
+.jestrc.json
 LICENSE
 tsconfig.json
 yarn.lock
