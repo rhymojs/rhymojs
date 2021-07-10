@@ -7,7 +7,7 @@
   "scripts": {
     "watch": "tsc -w",
     "build": "tsc",
-    "test": "jest --verbose",
+    "test": "jest --verbose --config .jestrc.json",
     "test:watch": "yarn test --watch",
     "lint": "yarn eslint --ext .ts,.tsx src/",
     "lint:fix": "yarn lint --fix",
