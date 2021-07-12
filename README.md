@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/xeptao/rhymojs/blob/dev/CONTRIBUTING.md"><b>Contribution Guidelines</b></a> • <a href="https://github.com/xeptao/rhymojs/issues/new"><b>Report a bug</b></a> • <a href="https://rhymojs.com/docs/"><b>Documentation</b></a>
+  <a href="https://github.com/rhymojs/rhymojs/blob/master/CONTRIBUTING.md"><b>Contribution Guidelines</b></a> • <a href="https://github.com/rhymojs/rhymojs/issues/new/choose"><b>Report a bug</b></a> • <a href="https://rhymojs.com/docs/"><b>Documentation</b></a>
 </p>
 
 ---
@@ -41,7 +41,7 @@
 
 - Install the NPM [package](https://www.npmjs.com/package/@rhymo/core).
 - Try it with the playground on our [website](https://rhymojs.com/playground/).
-- Use the [CDN](https://unpkg.com/@rhymo/core@latest/index.js) to add Rhymo to your project in seconds.
+- Use the [CDN](https://unpkg.com/@rhymo/core@latest/lib/index.js) to add Rhymo to your project in seconds.
 
 ## Documentation
 
@@ -49,7 +49,7 @@ You can find the documentation on our [website](https://rhymojs.com/docs/).
 
 You can check the [Getting Started](https://rhymojs.com/docs/getting-started/) page for learning more about Rhymo.
 
-You can improve it by contributing to [this repository](https://github.com/xeptao/rhymojs/).
+You can improve it by contributing to [this repository](https://github.com/rhymojs/rhymojs.com/).
 
 ## Examples
 
@@ -74,11 +74,11 @@ Rhymo is built with [TypeScript](https://www.typescriptlang.org/). But is compil
 
 ## Contributing
 
-### [Contribution Guidelines](https://github.com/xeptao/rhymojs/blob/dev/CONTRIBUTING.md)
+### [Contribution Guidelines](https://github.com/rhymojs/rhymojs/blob/master/CONTRIBUTING.md)
 
 Read this guideline to get a better and clear understanding of how to contribute to Rhymo.
 
-### [Code Of Conduct](https://github.com/xeptao/rhymojs/blob/dev/CODE_OF_CONDUCT.md)
+### [Code Of Conduct](https://github.com/rhyom/rhymojs/blob/master/CODE_OF_CONDUCT.md)
 
 We have adopted a code of conduct to keep everything clean and nice. Please make sure you read and understand it because any action that breaks any of the rules will not be tolerated.
 
@@ -94,4 +94,4 @@ Get updates on Rhymo's development and chat with the project maintainers and com
 
 Rhymo maintains its code by attribution under the terms of the [MIT License](http://opensource.org/licenses/mit-license).
 
-See the [LICENSE](https://github.com/xeptao/rhymojs/blob/dev/LICENSE) file for more details.
+See the [LICENSE](https://github.com/rhymojs/rhymojs/blob/master/LICENSE) file for more details.
