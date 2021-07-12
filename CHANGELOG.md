@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.2](https://github.com/rhymojs/rhymojs/compare/v1.4.1...v1.4.2) (2021-07-12)
+
+
+### Features
+
+* enhancement request template ([4d6aa33](https://github.com/rhymojs/rhymojs/commits/4d6aa33b1dfe1c88cf33266adfe0436e031c4403))
+* ip validator ([#52](https://github.com/rhymojs/rhymojs/issues/52)) ([699750c](https://github.com/rhymojs/rhymojs/commits/699750c165a6acbda9417c2dbe880d13511062e4))
+* issue templates ([#51](https://github.com/rhymojs/rhymojs/issues/51)) ([0036dd9](https://github.com/rhymojs/rhymojs/commits/0036dd9c877830c026a7f7ecd083f82f5b9a5cd2))
+* setup storybook ([#44](https://github.com/rhymojs/rhymojs/issues/44)) ([4211fa9](https://github.com/rhymojs/rhymojs/commits/4211fa901f1bbb906d954814d764c0c4fd41e137)), closes [#42](https://github.com/rhymojs/rhymojs/issues/42)
+* testing ([#47](https://github.com/rhymojs/rhymojs/issues/47)) ([ff4c28c](https://github.com/rhymojs/rhymojs/commits/ff4c28c393fe164e585ce178eb48164958d529c9))
+* write tests for every feature ([#49](https://github.com/rhymojs/rhymojs/issues/49)) ([a10ba8c](https://github.com/rhymojs/rhymojs/commits/a10ba8c8e0267e3a11de5d42791dedc4425c7d34))
+
+
+### Bug Fixes
+
+* expected ip length ([#50](https://github.com/rhymojs/rhymojs/issues/50)) ([4808f82](https://github.com/rhymojs/rhymojs/commits/4808f8209bbbb2eaeacc10311dbf8c212167e3b1))
+* ip regular expression ([#59](https://github.com/rhymojs/rhymojs/issues/59)) ([e5c4647](https://github.com/rhymojs/rhymojs/commits/e5c46476ed09c29d9a925b6aa7fdb92d84cdadb9))
+* links ([#67](https://github.com/rhymojs/rhymojs/issues/67)) ([8122089](https://github.com/rhymojs/rhymojs/commits/8122089fe87583b088da405dc426c54002117adc)), closes [#66](https://github.com/rhymojs/rhymojs/issues/66)
+* remember value on refresh ([#69](https://github.com/rhymojs/rhymojs/issues/69)) ([9590f40](https://github.com/rhymojs/rhymojs/commits/9590f4004ce1cee466da9d4fc90da64d06f1102e)), closes [#65](https://github.com/rhymojs/rhymojs/issues/65)
+* scope of `lint-staged` ([#46](https://github.com/rhymojs/rhymojs/issues/46)) ([09017cc](https://github.com/rhymojs/rhymojs/commits/09017cc02d48efa3f5de419b50b95f0f3f62d1ce))
+
 ### [1.4.1](https://github.com/rhymojs/rhymojs/compare/v0.1.1...v1.4.1) (2021-07-07)
 
 
