@@ -34,18 +34,4 @@ describe("useLocalStorage", () => {
       />
     );
   });
-
-  it("properly clears value", () => {
-    render(
-      <Test
-        action={([, setItem, clearValue]) => {
-          setItem("rhymojs");
-          clearValue();
-          const originalItem = localStorage.getItem("item");
-
-          expect(originalItem).toEqual("");
-        }}
-      />
-    );
-  });
 });
