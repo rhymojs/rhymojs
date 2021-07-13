@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  Avoid writing repetitive React code. We, web developers, struggle every day because of repetitive actions. Rhymo makes your development process a lot easier with useful hooks, utilities, and components.
+  Avoid writing repetitive React code. We, web developers, struggle every day because of repetitive actions. Rhymo makes your development process easier with useful hooks, utilities, and components.
 </p>
 
 <p align="center">
@@ -36,12 +36,11 @@
 
 ## Installation
 
-**There is several ways to install/try Rhymo:**
+**There are several ways to install/try Rhymo:**
 
 - Install the NPM [package](https://www.npmjs.com/package/@rhymo/core).
 - Try it with the playground on our [website](https://rhymojs.com/playground/).
 - Try it on [RunKit](https://npm.runkit.com/%40rhymo%2Fcore).
-- Use the [CDN](https://unpkg.com/@rhymo/core@latest/lib/index.js) to add Rhymo to your project in seconds.
 
 ## Documentation
 
@@ -76,7 +75,7 @@ Rhymo is built with [TypeScript](https://www.typescriptlang.org/). But is compil
 
 ### [Contribution Guidelines](https://github.com/rhymojs/rhymojs/blob/master/CONTRIBUTING.md)
 
-Read this guideline to get a better and clear understanding of how to contribute to Rhymo.
+Read this guideline to get a better understanding of how to contribute to Rhymo.
 
 ### [Code Of Conduct](https://github.com/rhymojs/rhymojs/blob/master/CODE_OF_CONDUCT.md)
 
