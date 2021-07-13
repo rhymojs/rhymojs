@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.3](https://github.com/rhymojs/rhymojs/compare/v1.4.2...v1.4.3) (2021-07-13)
+
+
+### Bug Fixes
+
+* twitter shield ([#72](https://github.com/rhymojs/rhymojs/issues/72)) ([fba56eb](https://github.com/rhymojs/rhymojs/commits/fba56eba0d4fe78e96a9c57762d1193ad040cea3))
+
 ### [1.4.2](https://github.com/rhymojs/rhymojs/compare/v1.4.1...v1.4.2) (2021-07-12)
 
 
