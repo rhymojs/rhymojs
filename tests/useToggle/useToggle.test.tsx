@@ -1,5 +1,7 @@
 import React from "react";
+
 import { render, cleanup } from "@testing-library/react";
+
 import Test from "./Test";
 
 describe("useToggle", () => {
@@ -18,7 +20,7 @@ describe("useToggle", () => {
   it("reverses the current value", () => {
     const { queryByText } = render(
       <Test
-        action={([toggle, reverseToggle]) => {
+        action={([, reverseToggle]) => {
           reverseToggle();
         }}
       />
