@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/rhymojs/rhymojs/compare/v1.4.3...v1.5.0) (2021-07-26)
+
+
+### Features
+
+* implement `prod` branch ([#75](https://github.com/rhymojs/rhymojs/issues/75)) ([ed5dcde](https://github.com/rhymojs/rhymojs/commits/ed5dcdef2ad03cbb8fb44d15ec30b066690eb7e4))
+* pull request template ([#82](https://github.com/rhymojs/rhymojs/issues/82)) ([904f25b](https://github.com/rhymojs/rhymojs/commits/904f25b691d23ce1f35e7cbdf2d99bd65483ef4a))
+* useToggle ([#78](https://github.com/rhymojs/rhymojs/issues/78)) ([6749d0b](https://github.com/rhymojs/rhymojs/commits/6749d0bb5da217eed19571078b7b36ed7ccbf9a5))
+* useTheme ([#83](https://github.com/rhymojs/rhymojs/issues/83)) ([845bbd1](https://github.com/rhymojs/rhymojs/commits/845bbd1194c2bb03cf554c696f9b2f16612e8d8b))
+
+### Bug Fixes
+
+* grammar errors ([#76](https://github.com/rhymojs/rhymojs/issues/76)) ([1eb6f8c](https://github.com/rhymojs/rhymojs/commits/1eb6f8c018f4284f30fdc962b8c0a7f757d7ae67))
+
 ### [1.4.3](https://github.com/rhymojs/rhymojs/compare/v1.4.2...v1.4.3) (2021-07-13)
 
 

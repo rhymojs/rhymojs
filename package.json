@@ -1,6 +1,6 @@
 {
   "name": "@rhymo/core",
-  "version": "1.4.3",
+  "version": "1.5.0",
   "description": "Avoid writing repetitive React code.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -9,6 +9,7 @@
     "build": "tsc",
     "test": "jest --verbose --config .jestrc.json",
     "test:watch": "yarn test --watch",
+    "test:related": "jest --verbose --findRelatedTests --config .jestrc.json",
     "lint": "yarn eslint --ext .ts,.tsx src/",
     "lint:fix": "yarn lint --fix",
     "prettify": "prettier --write {src,tests}/**/**/*.ts {src,tests}/**/**/*.tsx",
@@ -74,7 +75,7 @@
     "src/**/*.{ts, tsx}": [
       "yarn lint:fix",
       "yarn prettify",
-      "yarn test",
+      "yarn test:related",
       "git add . -A"
     ]
   }
