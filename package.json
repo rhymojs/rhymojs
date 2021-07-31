@@ -4,6 +4,15 @@
   "description": "Avoid writing repetitive React code.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "files": [
+    "lib/*",
+    "node_modules/*",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "SECURITY.md"
+  ],
   "scripts": {
     "watch": "tsc -w",
     "build": "tsc",
