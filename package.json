@@ -1,9 +1,18 @@
 {
   "name": "@rhymo/core",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Avoid writing repetitive React code.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "files": [
+    "lib/*",
+    "node_modules/*",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "SECURITY.md"
+  ],
   "scripts": {
     "watch": "tsc -w",
     "build": "tsc",
@@ -26,7 +35,13 @@
     "url": "git+https://github.com/rhymojs/rhymojs.git"
   },
   "keywords": [
-    "rhymojs"
+    "rhymojs",
+    "rhymo",
+    "react",
+    "front-end",
+    "frontend",
+    "library",
+    "react-library"
   ],
   "author": "Xeptao",
   "license": "MIT",
@@ -70,13 +85,5 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "typescript": "^4.3.2"
-  },
-  "lint-staged": {
-    "src/**/*.{ts, tsx}": [
-      "yarn lint:fix",
-      "yarn prettify",
-      "yarn test:related",
-      "git add . -A"
-    ]
   }
 }

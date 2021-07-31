@@ -7,7 +7,6 @@ interface ScrollPosition {
 
 /**
  * Returns the scroll position and updates it on scroll.
-
  * @see https://rhymojs.com/docs/useScrollPosition/
  */
 const useScrollPosition = (): ScrollPosition => {

@@ -7,7 +7,6 @@ type LocalStorageItem = [
 
 /**
  * Sets a localStorage item with a stateful value.
- * @version v1.4.2
  * @see https://rhymojs.com/docs/useLocalStorage/
  */
 const useLocalStorage = (name: string): LocalStorageItem => {

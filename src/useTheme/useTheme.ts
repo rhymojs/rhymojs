@@ -6,9 +6,8 @@ import { useLocalStorage, useToggle } from "..";
 type Theme = [string | null, () => void];
 
 /**
- * returns the current theme and a function to reverse it.
+ * Returns the current theme and a function to reverse it.
  * Also preserves the current theme in the local storage.
- * @version v1.4.2
  * @see https://rhymojs.com/docs/useTheme/
  */
 
