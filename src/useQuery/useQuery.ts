@@ -4,8 +4,6 @@ import axios from "axios";
 
 /**
  * Sends a request to a provided URL.
-
- * @version v1.0.0
  * @see https://rhymojs.com/docs/useQuery/
  */
 async function useQuery<ReturnValue = unknown>(
