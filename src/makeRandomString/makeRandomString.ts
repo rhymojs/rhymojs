@@ -1,6 +1,5 @@
 /**
  * Generates a random string.
-
  * @see https://rhymojs.com/docs/makeRandomString/
  */
 const makeRandomString = (length: number): string => {

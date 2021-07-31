@@ -7,7 +7,6 @@ type InitialToggleValue = [
 
 /**
  * returns a boolean value and a function to reverse the current boolean value
- * @version v1.4.2
  * @see https://rhymojs.com/docs/useToggle/
  */
 
