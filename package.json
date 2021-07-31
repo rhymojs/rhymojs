@@ -26,7 +26,13 @@
     "url": "git+https://github.com/rhymojs/rhymojs.git"
   },
   "keywords": [
-    "rhymojs"
+    "rhymojs",
+    "rhymo",
+    "react",
+    "front-end",
+    "frontend",
+    "library",
+    "react-library"
   ],
   "author": "Xeptao",
   "license": "MIT",
