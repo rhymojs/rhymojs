@@ -11,7 +11,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [1.5.0](https://github.com/rhymojs/rhymojs/compare/v1.4.3...v1.5.0) (2021-07-26)
 
-
 ### Features
 
 * implement `prod` branch ([#75](https://github.com/rhymojs/rhymojs/issues/75)) ([ed5dcde](https://github.com/rhymojs/rhymojs/commits/ed5dcdef2ad03cbb8fb44d15ec30b066690eb7e4))
