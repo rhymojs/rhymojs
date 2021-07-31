@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://github.com/rhymojs/rhymojs/compare/v1.5.0...v1.5.1) (2021-07-31)
+
+
+### Bug Fixes
+
+* remove key `version` from every jsdoc ([#90](https://github.com/rhymojs/rhymojs/issues/90)) ([ecb534c](https://github.com/rhymojs/rhymojs/commits/ecb534cde4f5d8590fb730620eede2051f729a3b)), closes [#80](https://github.com/rhymojs/rhymojs/issues/80)
+
 ## [1.5.0](https://github.com/rhymojs/rhymojs/compare/v1.4.3...v1.5.0) (2021-07-26)
 
 
