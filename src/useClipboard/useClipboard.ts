@@ -4,7 +4,6 @@ type ClipboardInfo = [string, React.Dispatch<React.SetStateAction<string>>];
 
 /**
  * Makes interacting with the Clipboard API a lot easier.
- * @see https://rhymojs.com/docs/useClipboard/
  */
 const useClipboard = (initialValue: string): ClipboardInfo => {
   const [clipboard, setClipboard] = useState(initialValue);

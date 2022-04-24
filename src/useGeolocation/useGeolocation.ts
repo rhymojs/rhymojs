@@ -6,7 +6,6 @@ interface Geolocation {
 
 /**
  * Returns the IP address of the user.
- * @see https://rhymojs.com/docs/useGeolocation/
  */
 const useGeolocation = async (): Promise<string> => {
   const { ip }: Geolocation = await useQuery(
