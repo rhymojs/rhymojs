@@ -7,7 +7,6 @@ interface WindowSize {
 
 /**
  * Returns the window's current width and height.
- * @see https://rhymojs.com/docs/useWindowSize/
  */
 const useWindowSize = (): WindowSize => {
   const [windowSize, setWindowSize] = useState<WindowSize>({

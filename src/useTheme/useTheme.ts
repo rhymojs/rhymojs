@@ -8,7 +8,6 @@ type Theme = [string | null, () => void];
 /**
  * Returns the current theme and a function to reverse it.
  * Also preserves the current theme in the local storage.
- * @see https://rhymojs.com/docs/useTheme/
  */
 
 const useTheme = (initialTheme: "light" | "dark"): Theme => {

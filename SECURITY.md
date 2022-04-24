@@ -5,5 +5,4 @@ We care about our community's security. We will do our best to fix the issue imm
 
 ## Steps To Report a Vulnerability
 
-* Create an issue about the vulnerability.
-* Go to <https://rhymojs.com/report/> and fill the form accordingly.
+- Create an issue about the vulnerability.

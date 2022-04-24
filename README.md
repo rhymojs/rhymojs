@@ -1,6 +1,5 @@
 <!-- markdownlint-disable MD033 -->
 
-
 <p align="center">
   <img src="./assets/logo_without_text.svg" width="100" />
 </p>
@@ -18,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/rhymojs/rhymojs/blob/master/CONTRIBUTING.md"><b>Contribution Guidelines</b></a> • <a href="https://github.com/rhymojs/rhymojs/issues/new/choose"><b>Report a bug</b></a> • <a href="https://rhymojs.com/docs/"><b>Documentation</b></a>
+  <a href="https://github.com/rhymojs/rhymojs/blob/master/CONTRIBUTING.md"><b>Contribution Guidelines</b></a> • <a href="https://github.com/rhymojs/rhymojs/issues/new/choose"><b>Report a bug</b></a> • <a href="https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md"><b>Documentation</b></a>
 </p>
 
 <br />
@@ -39,16 +38,11 @@
 **There are several ways to install/try Rhymo:**
 
 - Install the NPM [package](https://www.npmjs.com/package/@rhymo/core).
-- Try it with the playground on our [website](https://rhymojs.com/playground/).
 - Try it on [RunKit](https://npm.runkit.com/%40rhymo%2Fcore).
 
 ## Documentation
 
-You can find the documentation on our [website](https://rhymojs.com/docs/).
-
-You can check the [Getting Started](https://rhymojs.com/docs/getting-started/) page for learning more about Rhymo.
-
-You can improve it by contributing to [this repository](https://github.com/rhymojs/rhymojs.com/).
+**Documentation was temporarily removed.**
 
 ## Examples
 
@@ -86,7 +80,6 @@ We have adopted a code of conduct to keep everything clean and nice. Please make
 Get updates on Rhymo's development and chat with the project maintainers and community members.
 
 - Follow [@rhymojs](https://twitter.com/rhymojs/) on Twitter.
-- Subscribe to the [Rhymo's Blog](https://rhymojs.com/blog/).
 - Join our [Discord community](https://discord.gg/rhymojs/).
 
 ## License
