@@ -10,6 +10,7 @@ If you see any typo's, or any other language error; please create an issue.
 - [`useClipboard`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#useclipboard)
 - [`useGeolocation`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usegeolocation)
 - [`useLocalStorage`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#uselocalstorage)
+- [`useLockScroll`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#useLockScroll)
 
 <br>
 
@@ -145,4 +146,28 @@ console.log(myLocalStorageItem.value());
 myLocalStorageItem.setValue("light");
 console.log(myLocalStorageItem.value());
 // output: light
+```
+
+<br>
+
+## `useLockScroll()`
+
+### Definition
+
+This function locks the scroll and blocks the user from scrolling in the website.
+
+### Possible Cases
+
+- When you want to show an animation
+
+### Example
+
+```js
+myScroll = useLockScroll();
+
+myScroll.setLockScroll();
+
+console.log(myScroll.lockScroll());
+
+// output: true
 ```
