@@ -10,7 +10,7 @@ If you see any typo's, or any other language error; please create an issue.
 - [`useClipboard`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#useclipboard)
 - [`useGeolocation`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usegeolocation)
 - [`useLocalStorage`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#uselocalstorage)
-- [`useLockScroll`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#useLockScroll)
+- [`useLockScroll`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#uselockscroll)
 - [`useQuery`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usequery)
 
 <br>
