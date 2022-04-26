@@ -95,7 +95,7 @@ This function helps you interact with the Clipboard API. You can get the value o
 myClipboard = useClipboard("");
 myClipboard.setClipboard("hello");
 
-console.log(myClipboard.clipboard());
+console.log(myClipboard.clipboard);
 
 // output: "hello"
 ```
@@ -140,11 +140,11 @@ This function helps you manage the local storage. Sometimes managing the local s
 myLocalStorageItem = useLocalStorage("theme");
 
 myLocalStorageItem.setValue("dark");
-console.log(myLocalStorageItem.value());
+console.log(myLocalStorageItem.value);
 // output: dark
 
 myLocalStorageItem.setValue("light");
-console.log(myLocalStorageItem.value());
+console.log(myLocalStorageItem.value);
 // output: light
 ```
 
@@ -164,10 +164,9 @@ This function locks the scroll and blocks the user from scrolling in the website
 
 ```js
 myScroll = useLockScroll();
-
 myScroll.setLockScroll();
 
-console.log(myScroll.lockScroll());
+console.log(myScroll.lockScroll);
 
 // output: true
 ```
