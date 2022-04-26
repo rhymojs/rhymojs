@@ -4,7 +4,7 @@ If you see any typo's, or any other language error; please create an issue.
 
 ## Table of Contents
 
-- [`makeRandomString`](<https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#makeRandomString()>)
+- [`makeRandomString`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#makerandomstring)
 
 ## `makeRandomString()`
 
