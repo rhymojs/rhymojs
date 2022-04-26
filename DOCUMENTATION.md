@@ -7,6 +7,8 @@ If you see any typo's, or any other language error; please create an issue.
 - [`makeRandomString`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#makerandomstring)
 - [`toCapitalizeCase`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#tocapitalizecase)
 
+<br>
+
 ## `makeRandomString()`
 
 ### Definition
@@ -26,6 +28,8 @@ console.log(myString);
 
 // output: iuojhkdsfd
 ```
+
+<br>
 
 ## `toCapitalizeCase()`
 
