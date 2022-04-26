@@ -8,6 +8,7 @@ If you see any typo's, or any other language error; please create an issue.
 - [`toCapitalizeCase`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#tocapitalizecase)
 - [`uniqueArray`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#uniquearray)
 - [`useClipboard`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#useclipboard)
+- [`useGeolocation`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usegeolocation)
 
 <br>
 
@@ -95,4 +96,26 @@ myClipboard.setClipboard("hello");
 console.log(myClipboard.clipboard());
 
 // output: "hello"
+```
+
+<br>
+
+## `useGeolocation()`
+
+### Definition
+
+This function gets the user's IP.
+
+### Possible Cases
+
+- When you want to localize the language of your website to where the user lives
+- When you want to add specific content for specific regions
+
+### Example
+
+```js
+myGeolocation = useGeolocation();
+console.log(myGeolocation);
+
+// output: "127.0.0.1"
 ```
