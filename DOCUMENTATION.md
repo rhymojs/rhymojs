@@ -5,6 +5,7 @@ If you see any typo's, or any other language error; please create an issue.
 ## Table of Contents
 
 - [`makeRandomString`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#makerandomstring)
+- [`toCapitalizeCase`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#tocapitalizecase)
 
 ## `makeRandomString()`
 
@@ -24,4 +25,24 @@ myString = makeRandomString(10);
 console.log(myString);
 
 // output: iuojhkdsfd
+```
+
+## `toCapitalizeCase()`
+
+### Definition
+
+This function capitalizes the first character of a given string.
+
+### Possible Cases
+
+- When you want to capitalize names
+- When you want to capitalize titles
+
+### Example
+
+```js
+myString = toCapitalizeCase("rhymo");
+console.log(myString);
+
+// output: Rhymo
 ```
