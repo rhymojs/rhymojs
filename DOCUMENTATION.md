@@ -7,6 +7,7 @@ If you see any typo's, or any other language error; please create an issue.
 - [`makeRandomString`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#makerandomstring)
 - [`toCapitalizeCase`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#tocapitalizecase)
 - [`uniqueArray`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#uniquearray)
+- [`useClipboard`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#useclipboard)
 
 <br>
 
@@ -71,4 +72,27 @@ myArray = uniqueArray(["hello", "hello", "world", "world"]);
 console.log(myArray);
 
 // output: ["hello", "world"]
+```
+
+<br>
+
+## `useClipboard()`
+
+### Definition
+
+This function helps you interact with the Clipboard API. You can get the value of the clipboard or set a value. Takes in initial value as a parameter.
+
+### Possible Cases
+
+- When you want to let the user copy something
+
+### Example
+
+```js
+myClipboard = useClipboard("");
+myClipboard.setClipboard("hello");
+
+console.log(myClipboard.clipboard());
+
+// output: "hello"
 ```
