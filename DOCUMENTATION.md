@@ -6,6 +6,7 @@ If you see any typo's, or any other language error; please create an issue.
 
 - [`makeRandomString`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#makerandomstring)
 - [`toCapitalizeCase`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#tocapitalizecase)
+- [`uniqueArray`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#uniquearray)
 
 <br>
 
@@ -49,4 +50,25 @@ myString = toCapitalizeCase("rhymo");
 console.log(myString);
 
 // output: Rhymo
+```
+
+<br>
+
+## `uniqueArray()`
+
+### Definition
+
+This function removes the duplicated elements in an array.
+
+### Possible Cases
+
+- When you want to remove unintentional user inputs
+
+### Example
+
+```js
+myArray = uniqueArray(["hello", "hello", "world", "world"]);
+console.log(myArray);
+
+// output: ["hello", "world"]
 ```
