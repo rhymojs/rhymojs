@@ -9,6 +9,7 @@ If you see any typo's, or any other language error; please create an issue.
 - [`uniqueArray`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#uniquearray)
 - [`useClipboard`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#useclipboard)
 - [`useGeolocation`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usegeolocation)
+- [`useLocalStorage`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#uselocalstorage)
 
 <br>
 
@@ -118,4 +119,30 @@ myGeolocation = useGeolocation();
 console.log(myGeolocation);
 
 // output: "127.0.0.1"
+```
+
+<br>
+
+## `useLocalStorage()`
+
+### Definition
+
+This function helps you manage the local storage. Sometimes managing the local storage gets very repetitive and tidy to do. You should enter the name of the item that will be stored as a parameter. This will return you functions for setting and getting the value of that item.
+
+### Possible Cases
+
+- When you want to remember account settings
+
+### Example
+
+```js
+myLocalStorageItem = useLocalStorage("theme");
+
+myLocalStorageItem.setValue("dark");
+console.log(myLocalStorageItem.value());
+// output: dark
+
+myLocalStorageItem.setValue("light");
+console.log(myLocalStorageItem.value());
+// output: light
 ```
