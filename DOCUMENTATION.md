@@ -12,6 +12,7 @@ If you see any typo's, or any other language error; please create an issue.
 - [`useLocalStorage`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#uselocalstorage)
 - [`useLockScroll`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#uselockscroll)
 - [`useQuery`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usequery)
+- [`useScrollPosition`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usescrollposition)
 
 <br>
 
@@ -199,4 +200,30 @@ output: {
   "completed": false
 }
 */
+```
+
+<br>
+
+## `useScrollPosition()`
+
+### Definition
+
+Returns the scroll position on the y axis. Updates live. Also you can change someone's scroll position.
+
+### Possible Cases
+
+- Starting an animation on a specific y coordinate.
+
+### Example
+
+```js
+myScroll = useScrollPosition();
+
+console.log(myScroll);
+
+// output: 350
+
+console.log(myScroll);
+
+// output: 373
 ```
