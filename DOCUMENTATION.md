@@ -11,6 +11,7 @@ If you see any typo's, or any other language error; please create an issue.
 - [`useGeolocation`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usegeolocation)
 - [`useLocalStorage`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#uselocalstorage)
 - [`useLockScroll`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#useLockScroll)
+- [`useQuery`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usequery)
 
 <br>
 
@@ -169,4 +170,33 @@ myScroll.setLockScroll();
 console.log(myScroll.lockScroll);
 
 // output: true
+```
+
+<br>
+
+## `useQuery()`
+
+### Definition
+
+This function helps you send a fetch request to a provided url.
+
+### Possible Cases
+
+- Getting data from an API.
+
+### Example
+
+```js
+myAPI = useQuery("https://jsonplaceholder.typicode.com/todos/1");
+
+console.log(myAPI);
+
+/* 
+output: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+*/
 ```
