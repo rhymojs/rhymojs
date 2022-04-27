@@ -14,6 +14,7 @@ If you see any typo's, or any other language error; please create an issue.
 - [`useQuery`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usequery)
 - [`useScrollPosition`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usescrollposition)
 - [`useTheme`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usetheme)
+- [`useToggle`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usetoggle)
 
 <br>
 
@@ -253,4 +254,28 @@ myTheme.reverseToggle();
 
 console.log(myTheme.theme);
 // output: "light"
+```
+
+## `useToggle()`
+
+### Definition
+
+Tired of writing that same exact lines of code over and over again to do a basic true/false switcher? Then `useToggle` is the one for you. Takes in an initial value; and lets you either get the value, or switch it.
+
+### Possible Cases
+
+- When you want to let the user switch between two states of the website
+
+### Example
+
+```js
+myToggle = useToggle(true);
+
+print(myToggle.toggle);
+// output: true
+
+myToggle[1]();
+
+print(myToggle.toggle);
+// output: false
 ```
