@@ -13,6 +13,7 @@ If you see any typo's, or any other language error; please create an issue.
 - [`useLockScroll`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#uselockscroll)
 - [`useQuery`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usequery)
 - [`useScrollPosition`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usescrollposition)
+- [`useTheme`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usetheme)
 
 <br>
 
@@ -226,4 +227,30 @@ console.log(myScroll);
 console.log(myScroll);
 
 // output: 373
+```
+
+<br>
+
+## `useTheme()`
+
+### Definition
+
+This function helps you to manage the theme of the website. It gives you the current theme and a function to reverse it. Also keeps the theme in the local storage for better user experience. Takes in initialTheme as a parameter.
+
+### Possible Cases
+
+This one's pretty obvious...
+
+### Example
+
+```js
+myTheme = useTheme("dark");
+
+console.log(myTheme.theme);
+// output: "dark"
+
+myTheme.reverseToggle();
+
+console.log(myTheme.theme);
+// output: "light"
 ```
