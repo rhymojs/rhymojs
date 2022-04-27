@@ -26,9 +26,7 @@
     "release": "standard-version",
     "release:major": "standard-version --release-as major && yarn build && npm publish",
     "release:minor": "standard-version --release-as minor && yarn build && npm publish",
-    "release:patch": "standard-version --release-as patch && yarn build && npm publish",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "release:patch": "standard-version --release-as patch && yarn build && npm publish"
   },
   "repository": {
     "type": "git",
@@ -56,10 +54,6 @@
     "@babel/preset-react": "^7.14.5",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
-    "@storybook/addon-actions": "^6.3.4",
-    "@storybook/addon-essentials": "^6.3.4",
-    "@storybook/addon-links": "^6.3.4",
-    "@storybook/react": "^6.3.4",
     "@testing-library/react": "^12.0.0",
     "@types/jest": "^26.0.23",
     "@types/react": "^17.0.11",
