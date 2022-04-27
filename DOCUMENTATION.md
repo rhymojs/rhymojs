@@ -15,6 +15,7 @@ If you see any typo's, or any other language error; please create an issue.
 - [`useScrollPosition`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usescrollposition)
 - [`useTheme`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usetheme)
 - [`useToggle`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usetoggle)
+- [`useWindowSize`](https://github.com/rhymojs/rhymojs/blob/master/DOCUMENTATION.md#usetoggle)
 
 <br>
 
@@ -278,4 +279,28 @@ myToggle[1]();
 
 print(myToggle.toggle);
 // output: false
+```
+
+## `useWindowSize()`
+
+### Definition
+
+Returns you the height and the width of the window that the user in viewing the website on. Updates live.
+
+### Possible Cases
+
+- When you want to let the user only see some content special to their view size.
+
+### Example
+
+```js
+windowSize = useWindowSize();
+console.log(windowSize);
+
+/* 
+output: {
+  width: 1920,
+  height: 1080
+}
+*/
 ```
