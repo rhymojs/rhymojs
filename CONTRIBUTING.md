@@ -2,12 +2,13 @@
 
 Contributing to RhymoJS is pretty simple. Just follow these few steps.
 
-Note: *Try to commit only once, if you are making a lot of changes, please create multiple Pull Requests.*
+Note: _Try to commit only once, if you are making a lot of changes, please create multiple Pull Requests._
 
 - Fork this repository.
-- Run `git checkout -b username/the-change` (fill in the blanks with proper data, and make sure you are following `kebab-case`).
 - Run `yarn` to install the dependencies.
-- Run `yarn test`, if all the tests pass, commit your changes. If your commit doesn't satisfy the git hooks, you will get an error explaining what you did wrong.
+- Run `cd scripts`
+- Run `chmod +x contribute.sh`
+- Run `contribute.sh` and follow what the command says (if you are a Windows user, use Git Bash to run this)
 - Create a Pull Request targeting the `master` branch.
   - If you made a single commit:
     - The blank inputs will be automatically filled, don't change anything.
