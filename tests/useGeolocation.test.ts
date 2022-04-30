@@ -1,5 +1,8 @@
 import { useGeolocation as getGeolocation } from "../lib";
 
+// milisecond format
+beforeAll(() => jest.setTimeout(6 * 1000));
+
 describe("getGeolocation", () => {
   it("properly returns data", async () => {
     const geolocation = await getGeolocation();
